@@ -44,7 +44,7 @@ const CONTACTS = [
   },
   {
     name: "Facebook",
-    detail: "ComputaciónSS en Facebook",
+    detail: "ComputacionSS en Facebook",
     href: LINKS.facebook,
     Icon: FacebookIcon,
     className: "contact-facebook",
@@ -67,12 +67,11 @@ function App() {
         <a className="brand" href="#inicio">
           <img src={logo} alt="Logo de ComputaciónSS" className="brand-logo" />
           <span className="brand-name">
-            Computación<span className="brand-ss">SS</span>
+            Computacion<span className="brand-ss">SS</span>
           </span>
         </a>
         <a className="btn btn-whatsapp btn-sm" href={LINKS.whatsapp} target="_blank" rel="noreferrer">
           <WhatsAppIcon className="btn-icon" />
-          WhatsApp
         </a>
       </header>
 
@@ -163,7 +162,7 @@ function App() {
       <footer className="footer">
         <img src={logo} alt="" className="footer-logo" />
         <p>
-          © {new Date().getFullYear()} ComputaciónSS — Servicio técnico en La
+          © {new Date().getFullYear()} ComputacionSS — Servicio técnico en La
           Plata, Buenos Aires.
         </p>
       </footer>
