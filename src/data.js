@@ -55,7 +55,7 @@ export const SERVICES = [
 export const STEPS = [
   {
     number: "01",
-    title: "Contactame",
+    title: "Contacto",
     description: "Escribime por WhatsApp y contame qué le pasa a tu equipo.",
   },
   {
