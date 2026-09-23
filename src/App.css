@@ -301,7 +301,7 @@
 /* ---------- Contacto ---------- */
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(184px, 1fr));
   gap: 1.25rem;
 }
 
@@ -363,6 +363,15 @@
 .contact-facebook:hover {
   border-color: #4d8df7;
   box-shadow: 0 8px 32px rgba(77, 141, 247, 0.25);
+}
+
+.contact-linkedin .contact-icon {
+  color: #0077b5;
+}
+
+.contact-linkedin:hover {
+  border-color: #0077b5;
+  box-shadow: 0 8px 32px rgba(0, 119, 181, 0.25);
 }
 
 .contact-email .contact-icon {

@@ -20,6 +20,12 @@ const FacebookIcon = (props) => (
   </svg>
 );
 
+const LinkedInIcon = (props) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+    <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8h4.56v15H.22V8zm7.28 0h4.37v2.05h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.47 3.04 5.47 7V23h-4.55v-7.38c0-1.76-.03-4.02-2.45-4.02-2.45 0-2.83 1.92-2.83 3.89V23H7.5V8z" />
+  </svg>
+);
+
 const MailIcon = (props) => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true" {...props}>
     <rect x="2" y="4" width="20" height="16" rx="2" />
@@ -50,8 +56,15 @@ const CONTACTS = [
     className: "contact-facebook",
   },
   {
+    name: "LinkedIn",
+    detail: "Conectemos y crezcamos juntos en LinkedIn!",
+    href: LINKS.linkedin,
+    Icon: LinkedInIcon,
+    className: "contact-linkedin",
+  },
+  {
     name: "Email",
-    detail: "computacionss@hotmail.com",
+    detail: "Si preferís, escribime un email y te respondo a la brevedad",
     href: LINKS.email,
     Icon: MailIcon,
     className: "contact-email",

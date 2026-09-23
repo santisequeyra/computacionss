@@ -1,16 +1,74 @@
-# React + Vite
+# ComputacionSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page oficial de **ComputacionSS**, emprendimiento dedicado a la reparación de computadoras, soporte técnico y servicios informáticos, con radio de acción en la ciudad de La Plata.
 
-Currently, two official plugins are available:
+El sitio funciona como una presentación simple del emprendimiento, mostrando los principales servicios ofrecidos y centralizando los distintos medios de contacto y redes sociales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Servicios
 
-## React Compiler
+Entre los servicios ofrecidos se encuentran:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Reparación y mantenimiento de PCs y notebooks
+* Diagnóstico de fallas de hardware y software
+* Instalación y configuración de sistemas operativos
+* Limpieza y optimización de equipos
+* Actualización de componentes
+* Instalación y configuración de programas
+* Soporte técnico general
 
-## Expanding the ESLint configuration
+## Objetivo del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La landing page fue desarrollada para ofrecer un punto de contacto rápido y accesible para clientes de **ComputacionSS**, permitiendo consultar los servicios disponibles y acceder directamente a los diferentes canales de comunicación.
+
+Incluye enlaces a:
+
+* WhatsApp
+* Instagram
+* Facebook
+* LinkedIn
+* Email
+
+## Tecnologías
+
+* React
+* JavaScript / JSX
+* CSS
+* SVG para iconos y elementos gráficos
+
+## Diseño
+
+La interfaz utiliza una estética oscura con detalles en tonos rosa, cyan y ámbar, acompañada por una grilla de fondo y efectos visuales inspirados en una estética retro/neonwave.
+
+El diseño es responsive y está preparado para adaptarse tanto a escritorio como a dispositivos móviles.
+
+## Ejecutar el proyecto
+
+Instalar las dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el entorno de desarrollo:
+
+```bash
+npm run dev
+```
+
+Luego abrir en el navegador la dirección indicada por el servidor de desarrollo.
+
+## Build
+
+Para generar la versión de producción:
+
+```bash
+npm run build
+```
+
+## Contacto
+
+Para consultas sobre reparación de equipos o servicio técnico, podés comunicarte con **ComputacionSS** a través de cualquiera de los medios disponibles en la landing page.
+
+---
+
+**ComputacionSS — Reparación de PCs y servicio técnico**

@@ -1,9 +1,9 @@
-// Datos hardcodeados de ComputaciónSS (tomados del Instagram y Linktree)
 
 export const LINKS = {
   whatsapp: "https://wa.me/5492215362423?text=%C2%A1Hola!%20Quiero%20hacer%20una%20consulta%20t%C3%A9cnica.",
   instagram: "https://www.instagram.com/ComputacionSS/",
   facebook: "https://www.facebook.com/computacionSS/",
+  linkedin: "https://www.linkedin.com/company/computacionss/",
   email: "mailto:computacionss@hotmail.com",
 };
 
